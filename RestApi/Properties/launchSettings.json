@@ -1,0 +1,16 @@
+{
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ISSUER_SECRET_KEY": "3f7972261630a006661997b7e497075766af361c2c2468a39acd91e42e36614b",
+        "POSTGRES_CONNECTION_STRING": "User ID=inquiry;Password=Waxed-bums-bellows-chimes-tantrum-betray-stunts9;Host=localhost;Port=5432;Database=inquiry;Pooling=true;Connection Lifetime=0;"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://localhost:5108"
+    }
+  }
+}

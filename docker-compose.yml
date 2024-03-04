@@ -1,0 +1,22 @@
+version: '3.9'
+
+services:
+
+  postgres:
+    image: postgres
+    restart: always
+    shm_size: 128mb
+    environment:
+      POSTGRES_PASSWORD: Waxed-bums-bellows-chimes-tantrum-betray-stunts9
+      POSTGRES_USER: inquiry
+    volumes:
+      - postgres-vol:/var/lib/postgresql/data
+    networks:
+      - inquiry-net
+    ports:
+      - "5432:5432"
+      
+networks:
+    inquiry-net:
+volumes:
+    postgres-vol:
